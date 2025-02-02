@@ -1,7 +1,9 @@
-age = int(input("Введите ваш возраст ?"))
-if age < 12:
-    print("Вы ребёнок")
-elif age <= 17:
-    print("Вы подросток")
+pogoda = int(input("Какая погода на улице ?"))
+if pogoda >= 30:
+    print("Relly hott")
+elif pogoda >= 20:
+    print("Warm")
+elif pogoda >= 10:
+    print("Chilly")
 else:
-    print("Вы взрослый")
+    print("Cold")

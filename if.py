@@ -1,9 +1,7 @@
-pogoda = int(input("Какая погода на улице ?"))
-if pogoda >= 30:
-    print("Relly hott")
-elif pogoda >= 20:
-    print("Warm")
-elif pogoda >= 10:
-    print("Chilly")
+password = int(input("pass &"))
+if password == 1234:
+    print("Good")
+elif password == 0000:
+    print("Admin")
 else:
-    print("Cold")
+    print("Bad password")

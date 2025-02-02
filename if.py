@@ -1,7 +1,7 @@
-age = 15
-if age >= 18:
-    print(f'Вы взрослый')
-elif age >= 14:
-    print(f'Вы подросток')
+age = int(input("Введите ваш возраст ?"))
+if age < 12:
+    print("Вы ребёнок")
+elif age <= 17:
+    print("Вы подросток")
 else:
-    print(f'Вы ребёнок')
+    print("Вы взрослый")
